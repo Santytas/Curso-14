@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*  Mi primera variable */
+/* Un MIXIN es una caja de código reutilizable */
+.button {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 12px;
+  border-radius: 35px;
+}
+.button p {
+  color: white;
+}
+
+.bg-red {
+  background-color: red;
+}/*# sourceMappingURL=Styles.css.map */

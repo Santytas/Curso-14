@@ -1,0 +1,78 @@
+/* Comentario */
+h3{
+    color: blueviolet;
+}
+#container {
+    background-color: blueviolet;
+}
+.Subtitulo{
+    color: brown;
+}
+ul li h2{
+    color: chartreuse;
+}
+#prueba{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    font-weight: 900;
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    color: chartreuse;
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: cornflowerblue;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    line-height: 50px;
+    border: groove blue 30px;
+    border-radius: 50%;
+    margin: 10% 10% 30% 10%;
+    padding: 200px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 700px;
+    max-width: 700px;
+
+/*
+    Existen diversas formas de colocar colores
+    en CSS, una de ellas es mencionar el color
+    en idioma ingles, pero también puedes usar
+    codigo Hexadecimal, RGB, RGB, HSL
+  */
+  /*
+  color: #5AAADB;
+  color: #faebd7d7;
+  color: rgb(0,0,0);
+  color: rgba(255,50,20,0.50)
+  color: hsl(0, 100%, 50%)
+  */
+  /*
+  REM hace referencia a un tamaño por default que
+  el navegador tiene, esta medida es relativa
+  pues el tamaño por default puede cambiar segun
+  el ancho del navegador. Decir 3rem es decir
+  3 veces ese tamaño por default
+  font-size: 3rem;
+  EM hace referencia al tamaño por default del
+  elemento HTML en si
+  font-size: 3em;
+  */
+  /*
+    vh = viewport height (altura del navegador)
+    vw = vierport width (anchura del navegador)
+  */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+#prueba:hover{
+    background-color: blue;
+}
+a :visited{
+    color: darkred;
+}
+a link{
+    color: brown;
+}
